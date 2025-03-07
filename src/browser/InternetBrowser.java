@@ -1,4 +1,9 @@
 package browser;
 
-public class InternetBrowser {
+public interface InternetBrowser {
+    void connect();
+
+    void disconnect();
+
+    void browse();
 }

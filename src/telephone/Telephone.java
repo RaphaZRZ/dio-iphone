@@ -1,4 +1,7 @@
 package telephone;
 
-public class Telephone {
+public interface Telephone {
+    void call();
+
+    void endCall();
 }

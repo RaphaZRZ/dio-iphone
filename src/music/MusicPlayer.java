@@ -1,4 +1,7 @@
 package music;
 
-public class MusicPlayer {
+public interface MusicPlayer {
+    void playMusic();
+
+    void pauseMusic();
 }
